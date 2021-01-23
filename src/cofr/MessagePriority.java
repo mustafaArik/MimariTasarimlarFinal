@@ -1,5 +1,5 @@
 package cofr;
 
-public class MessagePriority {
+enum MessagePriority {
 
 }
