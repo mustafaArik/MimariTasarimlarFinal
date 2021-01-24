@@ -6,9 +6,9 @@ public class EmailErrorHandler implements Receiver{
 	@Override
 	public boolean handleMessage(Message message) {
 		
-		if (message.text.contains("Email"))
+		if (message.text.contains("Eposta"))
 		{
-			System.out.println(" EmailErrorHandler processed " +message.priority + "priority issue :" + message.text);
+			System.out.println(" Eposta Hata Yakalayýcýsý Çalýþtý \n Öncelik:\t" +message.priority + "\t\t Konu: " + message.text + "\n----------");
 			return true;
 		}
 		else

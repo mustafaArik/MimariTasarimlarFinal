@@ -2,6 +2,7 @@ package cofr;
 
 public class IssueRaiser {
 	public Receiver setFirstReceiver;
+	
 	public void setFirstErrorHandler(Receiver firstErrorHandler)
 	{
 		this.setFirstReceiver = firstErrorHandler;

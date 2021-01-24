@@ -11,9 +11,9 @@ public class FaxErrorHandler implements Receiver{
 	@Override
 	public boolean handleMessage(Message message)
 	{
-		if (message.text.contains("Fax"))
+		if (message.text.contains("Faks"))
 		{
-			System.out.println(" FaxErrorHandler processed " +message.priority + "priority issue :" + message.text);
+			System.out.println(" Faks Hata Yakalayýcýsý Çalýþtý \n Öncelik:\t" +message.priority + "\t\t Konu: " + message.text + "\n----------");
 			return true;
 		}
 		else
