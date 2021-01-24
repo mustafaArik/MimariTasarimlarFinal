@@ -18,7 +18,7 @@ public class ChainofResponsibilityPattern {
 		// Starting point : IssueRaiser will raise issues and set the first handler
 		
 		issueRaiser.setFirstErrorHandler(faxHandler);
-		
+		 
 		// FaxErrorHandler will pass the error to EmailHandler if needed.
 		faxHandler.nextErrorHAndler(emailHandler);
 		
