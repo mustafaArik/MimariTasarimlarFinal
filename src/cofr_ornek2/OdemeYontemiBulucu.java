@@ -2,16 +2,16 @@ package cofr_ornek2;
 
 public class OdemeYontemiBulucu {
 	
-	public OdemeYontemi ilkOdemeYontemiBelirle;
+	public OdemeYontemi ilkOdemeYontemi;
 	
 	public void IlkOdemeYontemiBelirleyici(OdemeYontemi ilkYontem)
 	{
-		this.ilkOdemeYontemiBelirle = ilkYontem;
+		this.ilkOdemeYontemi = ilkYontem;
 	}
 	
 	public void OdemeyiAl(OdemeYap odeme)
 	{
-		if (ilkOdemeYontemiBelirle != null)
-			ilkOdemeYontemiBelirle.odemeIsleyici(odeme);
+		if (ilkOdemeYontemi != null)
+			ilkOdemeYontemi.odemeIsleyici(odeme);
 	}
 }

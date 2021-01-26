@@ -6,7 +6,7 @@ public class KapidaOde implements OdemeYontemi {
 	public boolean odemeIsleyici(OdemeYap odeme) {
 		if (odeme.yontemSec.equals(Yontemler.KAPIDA_ODE))
 		{
-			System.out.println(" Ödeme Kapýda Yapýlacak");
+			System.out.println(odeme.ucret + " TL - Ödeme Kapýda Alýnacak");
 			return true;
 		}
 		else

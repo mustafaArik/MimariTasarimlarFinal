@@ -6,7 +6,7 @@ public class KrediKarti implements OdemeYontemi {
 	public boolean odemeIsleyici(OdemeYap odeme) {
 		if (odeme.yontemSec.equals(Yontemler.KREDI_KARTI))
 		{
-			System.out.println(" Kredi Kartýyla Ödeme Ýþlemi Yapýldý");
+			System.out.println(odeme.ucret + " TL - Kredi Kartýyla Ödeme Ýþlemi Alýndý");
 			return true;
 		}
 		else

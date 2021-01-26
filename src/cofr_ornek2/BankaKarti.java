@@ -6,7 +6,7 @@ public class BankaKarti implements OdemeYontemi {
 	public boolean odemeIsleyici(OdemeYap odeme) {
 		if (odeme.yontemSec.equals(Yontemler.BANKA_KARTI))
 		{
-			System.out.println(" BANKA Kartýyla (DEBIT CARD) Ödeme Ýþlemi Yapýldý");
+			System.out.println(odeme.ucret + " TL - BANKA Kartýyla (DEBIT CARD) Ödeme Ýþlemi ALýndý");
 			return true;
 		}
 		else

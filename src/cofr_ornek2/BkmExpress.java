@@ -6,7 +6,7 @@ public class BkmExpress implements OdemeYontemi {
 	public boolean odemeIsleyici(OdemeYap odeme) {
 		if (odeme.yontemSec.equals(Yontemler.BKM_EXPRESS))
 		{
-			System.out.println(" BkmExpress üzerinden Ödeme Ýþlemi Yapýldý");
+			System.out.println(odeme.ucret + " TL - BkmExpress üzerinden Ödeme Ýþlemi Alýndý");
 			return true;
 		}
 		else
