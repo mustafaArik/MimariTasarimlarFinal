@@ -24,7 +24,5 @@ public class EmailErrorHandler implements Receiver{
 	public void nextErrorHAndler(Receiver nextReceiver) {
 		this.nextReceiver = nextReceiver;
 		
-	}
-	
-	
+	}	
 }

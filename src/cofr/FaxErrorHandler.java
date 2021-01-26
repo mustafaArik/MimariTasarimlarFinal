@@ -24,5 +24,4 @@ public class FaxErrorHandler implements Receiver{
 		
 		return false;
 	}
-
 }
